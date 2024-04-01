@@ -124,6 +124,10 @@ def run(
   logging.info('Starting server on port %d with %d threads', port, threads)
 
   jetstream_server.start()
+
+  logging.info(f'Starting jax profiler server at {9999}')
+  jax.profiler.start_server(9999)
+
   return jetstream_server
 
 
