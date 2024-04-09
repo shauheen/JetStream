@@ -7,6 +7,7 @@ JetStream is a fast library for LLM inference and serving on TPUs (and GPUs in f
 ## Documentation
 
 - [Online Inference with MaxText on v5e Cloud TPU VM](#jetstream-maxtext-inference-on-v5e-cloud-tpu-vm-user-guide)
+- [Online Inference with PyTorch](#jetstream-pytorch)
 - [JetStream Standalone Local Setup](#jetstream-standalone-local-setup)
 
 ---
@@ -300,6 +301,12 @@ rm -rf JetStream
 # Clean up python virtual environment
 rm -rf .env
 ```
+
+---
+
+# JetStream Online Inference for PyTorch
+
+JetStream can be used for PyTorch models starting with Llama. In order to get started with PyTorch on JetStream visit [this](https://github.com/google/jetstream-pytorch) repo.
 
 ---
 
